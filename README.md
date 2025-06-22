@@ -13,7 +13,7 @@ Sistema de detecção de pessoas em vídeos utilizando rede neural YOLO pré-tre
 ### 1. Clone o repositório
 ```bash
 git clone <https://github.com/LeonardoRdc/ProcessoSeletivoMetta.git>
-cd processo-seletivo-metta
+cd ProcessoSeletivoMetta
 ```
 
 ### 2. Crie um ambiente virtual
@@ -39,7 +39,7 @@ python src/main.py --video_path ./sample/people-walking.mp4 --limiar_pessoas 5
 
 **Parâmetros:**
 - `--video_path`: Caminho para o vídeo de entrada (obrigatório)
-- `--threshold`: Número mínimo de pessoas para gerar alerta (obrigatório)
+- `--limiar_pessoas`: Número mínimo de pessoas para gerar alerta (obrigatório)
 - `--output_dir`: Diretório de saída (opcional, padrão: `./output_results`)
 
 **Exemplo completo:**
