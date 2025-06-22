@@ -62,26 +62,26 @@ Acesse no navegador: http://localhost:8501
 ```
 processo-seletivo-2025/
 ├── src/
-│   ├── main.py           # Script principal
-│   ├── detector.py       # Classe de detecção YOLO
-│   ├── video_processor.py # Processamento de vídeo
-│   └── interface.py           # Interface gráfica
+│   ├── main.py                                      # Script principal
+│   ├── detector.py                                  # Classe de detecção YOLO
+│   ├── video_processor.py                           # Processamento de vídeo
+│   └── interface.py                                 # Interface gráfica
 ├── sample/
-│   └── people-walking.mp4 # Vídeo de exemplo
+│   └── people-walking.mp4                           # Vídeo de exemplo
 ├── output_results/
-│   ├── output_video.mp4  # Vídeo com detecções
-│   ├── history.json      # Histórico por frame
-│   └── alerts.json       # Alertas de limite
+│   ├── output_video.mp4                             # Vídeo com detecções
+│   ├── history.json                                 # Histórico por frame
+│   └── alerts.json                                  # Alertas de limite
 ├── screenshots/
-│   ├── grafico.png  # Print do gráfico
-│   ├── video_processado.png     # Print do vídeo processado
-├── yolov8n.pt           # Modelo YOLO
-├── requirements.txt     # Dependências
-├── README.md           # Este arquivo
-└── ABOUT.md           # Documentação técnica
+│   ├── grafico.png                                  # Print do gráfico
+│   ├── video_processado.png                         # Print do vídeo processado
+├── yolov8n.pt                                       # Modelo YOLO
+├── requirements.txt                                 # Dependências
+├── README.md                                        # Este arquivo
+└── ABOUT.md                                         # Documentação Técnica
 ```
 
-## 🎬 Outputs Gerados
+## Outputs Gerados
 
 O sistema gera automaticamente na pasta `output_results/`:
 

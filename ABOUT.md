@@ -123,7 +123,7 @@ for frame_id, frame in enumerate(video_frames):
 - Pessoas detectadas: 2-8 por frame
 - Tempo processamento: ~45 segundos (CPU)
 
-## 🔧 Configurações Técnicas
+## Configurações Técnicas
 
 ### Parâmetros de Detecção
 
@@ -157,12 +157,12 @@ font_scale = 0.6
 
 A solução desenvolvida atende integralmente aos requisitos técnicos propostos, implementando:
 
-✅ **Processamento completo** de vídeo frame a frame
-✅ **Detecção** com rede neural pré-treinada
-✅ **Outputs estruturados** em JSON conforme especificação
-✅ **Interface Gráfica** com boa UX/UI
-✅ **Código limpo** seguindo boas práticas de OOP
-✅ **Documentação completa** para instalação e uso
+- **Processamento completo** de vídeo frame a frame
+- **Detecção** com rede neural pré-treinada
+- **Outputs estruturados** em JSON conforme especificação
+- **Interface Gráfica** com boa UX/UI
+- **Código limpo** seguindo boas práticas de OOP
+- **Documentação completa** para instalação e uso
 
 **Diferenciais Implementados:**
 - Interface gráfica moderna e interativa
